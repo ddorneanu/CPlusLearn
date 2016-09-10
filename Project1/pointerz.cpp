@@ -1,5 +1,6 @@
-#pragma once
-//using namespace std;
+#include <iostream>
+
+using namespace std;
 
 void pointerz() {
 	int variab = 5;
@@ -60,6 +61,4 @@ void pointerz() {
 	cout << "pointerul este acum: " << p << endl;
 
 
-
-	return 0;
 }

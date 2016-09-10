@@ -22,6 +22,7 @@
     <ProjectGuid>{4ECB6AEF-1020-498C-9E19-7C759AA115EB}</ProjectGuid>
     <RootNamespace>Project1</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>First Project</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -114,10 +115,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="joaca2.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="pointerz.cpp" />
+    <ClCompile Include="arrays.cpp" />
+    <ClCompile Include="countdown.cpp" />
+    <ClCompile Include="countup.cpp" />
+    <ClCompile Include="errors.cpp" />
+    <ClCompile Include="increment.cpp" />
+    <ClCompile Include="onetime.cpp" />
+    <ClCompile Include="sizes.cpp" />
+    <ClCompile Include="switcher.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="sum.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="pointerz.h" />
+    <ClInclude Include="custom.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
