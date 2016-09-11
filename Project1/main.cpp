@@ -6,8 +6,6 @@
 using namespace std;
 
 
-//test
-
 int main()
 {
 	char opt; //atentie ca trebuie inclus string
