@@ -1,5 +1,6 @@
 #include <iostream>
-#include "custom.h";
+#include "custom.h"
+#include "Persoana.h"
 
 using namespace std;
 
@@ -7,12 +8,20 @@ using namespace std;
 int menu(int option) {
 
 	switch (option) {
-	case 'j':
+	case 'b':
+	{
+		Persoana per = input_persoana();
+		per.getAttrib();
+		break; 
+	}
+
+	case 'j':{
 		int nr;
 		cout << "Introdu numarul: ";
 		cin >> nr;
 		joaca(nr);
 		break;
+	}
 	case 'k':
 		sizes();
 		break;

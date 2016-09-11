@@ -54,12 +54,15 @@
     <ClCompile Include="Menu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Persoana.cpp">
+    <ClCompile Include="input_persona.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="custom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Persoana.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
