@@ -15,4 +15,5 @@ int onetime();
 int sizes();
 int switcher();
 int menu(int);
+void aloc_dinam();
 #endif

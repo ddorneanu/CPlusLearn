@@ -19,6 +19,9 @@ int menu(int option) {
 	case 'p':
 		pointerz();
 		break;
+	case 'l':
+		aloc_dinam();
+		break;
 	case 'a':
 		arrays();
 		break;
