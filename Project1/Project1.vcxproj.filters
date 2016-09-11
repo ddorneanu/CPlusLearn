@@ -54,7 +54,7 @@
     <ClCompile Include="Menu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Clase.cpp">
+    <ClCompile Include="Persoana.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
