@@ -10,11 +10,13 @@ using namespace std;
 class Persoana
 {
 public:
-	void setName(string x) {
-		Name = x;
-	}
+	//void setName(string x) {
+		//Name = x;
+	//}
+	string getName();
+
 	void getAttrib() {
-		cout << Name + Prenume << age << sex <<endl;
+		cout << Name +' '+ Prenume + ' ' << age << " " << sex <<endl;
 	}
 
 	Persoana(string Nume, string Prenum, int varsta, char sexu)
@@ -32,9 +34,10 @@ private:
 	int age;
 	char sex;
 	map <string, int> skillz;
+	int id;
 };
 
-Persoana input_persoana();
+Persoana init_persoana();
 
 /*
 Persoana::Persoana()

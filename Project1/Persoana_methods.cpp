@@ -4,7 +4,7 @@
 
 using namespace std;
 
-Persoana input_persoana() {
+Persoana init_persoana() {
 	string nume;
 	string prenume;
 	int age;
@@ -15,15 +15,20 @@ Persoana input_persoana() {
 	cin >> prenume;
 	cout << "Baga varsta" << endl;
 	cin >> age;
+	do {
 	cout << "Baga sexul" << endl;
 	cin >> sex;
-	if (sex == 'M' || sex == 'F') {
-		cout << "sex";
-	}
-	else
-	{
-		cout << "pula" << endl;
-	}
+	} while (sex != 'M' && sex != 'F');
+
 	return (Persoana(nume, prenume, age, sex));
 }
 
+string getName()
+{
+	return Name;
+}
+
+void getAttrib(Persoana per) {
+//	Persoana per = new Persoana();
+	cout << per.getName + ' ' + per.Prenume + ' ' << age << " " << sex << endl;
+}

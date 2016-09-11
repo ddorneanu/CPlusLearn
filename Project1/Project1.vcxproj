@@ -125,7 +125,7 @@
     <ClCompile Include="increment.cpp" />
     <ClCompile Include="onetime.cpp" />
     <ClCompile Include="sizes.cpp" />
-    <ClCompile Include="input_persona.cpp" />
+    <ClCompile Include="Persoana_methods.cpp" />
     <ClCompile Include="switcher.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="sum.cpp" />
