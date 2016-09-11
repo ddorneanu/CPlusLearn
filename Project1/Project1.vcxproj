@@ -125,6 +125,7 @@
     <ClCompile Include="increment.cpp" />
     <ClCompile Include="onetime.cpp" />
     <ClCompile Include="sizes.cpp" />
+    <ClCompile Include="Clase.cpp" />
     <ClCompile Include="switcher.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="sum.cpp" />
